@@ -4,9 +4,11 @@ function App() {
 
   return (
     <>
-      <Home />
+      <div className="  bg-[#f8f2f2] md:h-full h-full">
+        <Home />
+      </div>
     </>
-  )
+  );
 }
 
 export default App
