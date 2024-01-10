@@ -8,15 +8,35 @@ function Navbar() {
           <div className="text-lg  container mx-auto flex justify-between items-center">
             {/* Logo */}
             <a href="#">
-              <img src="" alt="" />
+              <img src="../../public/vite.svg" alt="" className=" h-14" />
             </a>
             {/* Onglets */}
             <ul className="md:flex space-x-10 hidden">
-              <Link>Accueil</Link>
-              <Link>A propos</Link>
-              <Link>Services</Link>
-              <Link>Projets</Link>
-              <Link>Contact</Link>
+              <Link className=" block dark:hover:border-white dark:hover:pb-2 dark:hover:text-white d text-slate-950 hover:text-slate-600 dark:text-white font-semibold cursor-pointer "
+                  onactiveclass="active"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}>Accueil</Link>
+              <Link className=" block dark:hover:border-white dark:hover:pb-2 dark:hover:text-white d text-slate-950 hover:text-slate-600 dark:text-white font-semibold cursor-pointer "
+                  onactiveclass="active"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}>A propos</Link>
+              <Link className=" block dark:hover:border-white dark:hover:pb-2 dark:hover:text-white d text-slate-950 hover:text-slate-600 dark:text-white font-semibold cursor-pointer "
+                  onactiveclass="active"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}>Services</Link>
+              <Link className=" block dark:hover:border-white dark:hover:pb-2 dark:hover:text-white d text-slate-950 hover:text-slate-600 dark:text-white font-semibold cursor-pointer "
+                  onactiveclass="active"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}>Projets</Link>
+              <Link className=" block dark:hover:border-white dark:hover:pb-2 dark:hover:text-white d text-slate-950 hover:text-slate-600 dark:text-white font-semibold cursor-pointer "
+                  onactiveclass="active"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}>Contact</Link>
             </ul>
             {/* button */}
             <div className="space-x-12 hidden md:flex items-center">
