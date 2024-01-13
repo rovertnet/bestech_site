@@ -21,7 +21,7 @@ function Home() {
               maiores a eligendi dicta vitae nulla.
             </p>
             <div className="md:mt-8 mt-6">
-              <button className=" bg-blue-900 text-white rounded-md text-xl font-semibold px-5 py-3">
+              <button className=" bg-blue-900 text-white hover:bg-blue-700 rounded-md text-xl font-semibold px-5 py-3">
                 En savoir plus
               </button>
             </div>
