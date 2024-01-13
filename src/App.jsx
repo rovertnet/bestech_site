@@ -4,7 +4,7 @@ function App() {
 
   return (
     <>
-      <div className="  bg-[#f8f2f2] md:h-full h-full">
+      <div className="md:h-full h-full">
         <Home />
       </div>
     </>
