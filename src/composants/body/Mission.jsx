@@ -1,14 +1,39 @@
+import { FaInstagramSquare } from "react-icons/fa";
+import { BsTwitterX } from "react-icons/bs";
+import { FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF } from "react-icons/fa";
+import { FaSquareGithub } from "react-icons/fa6";
 
 function Mission() {
   return (
     <>
-      <div className=" md:px-14 p-4 max-w-s mx-auto space-y-12">
-        <div className=" flex flex-col  md:flex-row justify-between items-center gap-8">
-          <div className=" md:w-1/2">
-            <img src="../../public/marthe.png" alt="ùission" />
+      <div className=" md:px-14 p-4 max-w-s mx-auto space-y-12 md:my-11 my-14">
+        <div className=" flex flex-col  md:flex-row justify-between items-center gap-40">
+          <div className=" md:w-1/2 flex gap-10">
+            <div className="">
+              <img
+                src="../../public/3.png"
+                alt="ùission"
+                className=" rounded-tl-md rounded-bl-md"
+              />
+            </div>
+            <div className="">
+              <img
+                src="../../public/4.png"
+                alt="ùission"
+                className=" rounded-tl-md rounded-tr-md rounded-br-md rounded-bl-md mt-20"
+              />
+            </div>
+            <div className="">
+              <img
+                src="../../public/5.png"
+                alt="ùission"
+                className="rounded-tr-md rounded-br-md"
+              />
+            </div>
           </div>
           <div className=" md:w-2/5">
-            <h2 className=" md:text-4xl  text-3xl font-extrabold mb-2 leading-normal text-blue-800">
+            <h2 className=" md:text-4xl text-end md:text-start text-3xl font-extrabold md:mb-9 mb-7 leading-normal text-blue-800">
               Notre mission
             </h2>
             <p className=" text-slate-500 text-xl mb-3 text-justify">
@@ -22,10 +47,17 @@ function Mission() {
               portefeuille de créations époustouflantes, nos tarifs compétitifs,
               et nos coordonnées pour planifier votre prochaine consultation.
             </p>
-            <button className="py-3 text-xl shadow-md px-6 rounded-3xl bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white hover:bg-purple-500 transition-all duration-300">
-              Prendre rendez-vous
-            </button>
-            <div></div>
+
+            <span className="text-slate-500 text-xl md:pb-5 pb-5">
+              Suivez-nous sur :{" "}
+            </span>
+
+            <div className=" flex justify-start items-center gap-4 md:mt-7 mt-5">
+              <FaInstagramSquare className="cursor-pointer text-3xl md:text-3xl text-red-600 " />
+              <BsTwitterX className="cursor-pointer text-3xl md:text-3xl " />
+              <FaLinkedinIn className="cursor-pointer text-3xl md:text-3xl text-blue-500 " />
+              <FaFacebookF className="cursor-pointer text-3xl md:text-3xl text-blue-600 " />
+            </div>
           </div>
         </div>
       </div>
@@ -33,4 +65,4 @@ function Mission() {
   );
 }
 
-export default Mission
+export default Mission;

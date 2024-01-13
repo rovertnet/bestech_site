@@ -1,5 +1,7 @@
 
 import About from "../composants/body/About";
+import Mission from "../composants/body/Mission";
+import Service from "../composants/body/Service";
 import Navbar from "../composants/header/Navbar"
 
 
@@ -17,8 +19,7 @@ function Home() {
             <p className=" text-white max-w-md px-7 text-lg font-semibold md:mt-5 mt-4">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
               vitae ea tempore incidunt maxime doloribus quasi, quisquam
-              laudantium itaque, blanditiis ad expedita consectetur? Nemo
-              maiores a eligendi dicta vitae nulla.
+              laudantium itaque.
             </p>
             <div className="md:mt-8 mt-6">
               <button className=" bg-blue-900 text-white hover:bg-blue-700 rounded-md text-xl font-semibold px-5 py-3">
@@ -30,6 +31,8 @@ function Home() {
       </div>
       <div>
         <About />
+        <Mission />
+        <Service />
       </div>
     </>
   );
