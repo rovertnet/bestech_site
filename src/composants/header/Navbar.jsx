@@ -10,8 +10,8 @@ function Navbar() {
   };
   return (
     <>
-      <div className="md:px-14 lg:px-14 sm:px-14 p-10 max-w-screen-2xl mx-auto">
-        <div className="fixed top-0 right-0 left-0 mx-10 md:mx-12 md:mt-5 mt-4 shadow-xl bg-white rounded-tr-md rounded-tl-md">
+      <div className="md:px-16 lg:px-16 sm:px-16 px-14 max-w-screen-2xl mx-auto">
+        <div className="fixed top-0 right-0 left-0 md:px-14 lg:px-14 sm:px-14 p-2 mx-10 md:mx-12 md:mt-5 mt-4 shadow-lg bg-white rounded-tr-md rounded-tl-md">
           <div className="text-lg  container mx-auto flex justify-between items-center">
             {/* Logo */}
             <a href="#">
@@ -20,7 +20,7 @@ function Navbar() {
             {/* Onglets */}
             <ul className="md:flex space-x-10 hidden">
               <Link
-                className=" block text-xl hover:bg-blue-200 text-blue-800 hover:text-slate-600 font-semibold cursor-pointer "
+                className=" block text-xl text-blue-800 hover:text-slate-600 font-semibold cursor-pointer "
                 onactiveclass="active"
                 spy={true}
                 smooth={true}
@@ -29,7 +29,7 @@ function Navbar() {
                 Accueil
               </Link>
               <Link
-                className=" block text-xl hover:bg-blue-200 text-blue-800 hover:text-slate-600  font-semibold cursor-pointer "
+                className=" block text-xl text-blue-800 hover:text-slate-600  font-semibold cursor-pointer "
                 onactiveclass="active"
                 spy={true}
                 smooth={true}
@@ -38,7 +38,7 @@ function Navbar() {
                 A propos
               </Link>
               <Link
-                className=" block text-xl hover:bg-blue-200 text-blue-800 hover:text-slate-600  font-semibold cursor-pointer "
+                className=" block text-xl text-blue-800 hover:text-slate-600  font-semibold cursor-pointer "
                 onactiveclass="active"
                 spy={true}
                 smooth={true}
@@ -47,7 +47,7 @@ function Navbar() {
                 Services
               </Link>
               <Link
-                className=" block text-xl hover:bg-blue-200 text-blue-800 hover:text-slate-600  font-semibold cursor-pointer "
+                className=" block text-xl text-blue-800 hover:text-slate-600  font-semibold cursor-pointer "
                 onactiveclass="active"
                 spy={true}
                 smooth={true}
@@ -56,7 +56,7 @@ function Navbar() {
                 Projets
               </Link>
               <Link
-                className=" block text-xl hover:bg-blue-200 text-blue-800 hover:text-slate-600 font-semibold cursor-pointer "
+                className=" block text-xl text-blue-800 hover:text-slate-600 font-semibold cursor-pointer "
                 onactiveclass="active"
                 spy={true}
                 smooth={true}

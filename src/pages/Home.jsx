@@ -4,6 +4,7 @@ import Mission from "../composants/body/Mission";
 import Newsletter from "../composants/body/Newsletter";
 import Project from "../composants/body/Project";
 import Service from "../composants/body/Service";
+import Footer from "../composants/footer/Footer";
 import Navbar from "../composants/header/Navbar"
 
 
@@ -14,7 +15,7 @@ function Home() {
         <Navbar />
 
         <div className=" flex flex-col justify-center items-center">
-          <div className=" text-center md:py-5 py-3">
+          <div className=" text-center md:py-10 py-7">
             <h1 className="text-blue-800 text-2xl md:text-3xl font-extrabold">
               BESTECH CONSULT
             </h1>
@@ -37,6 +38,7 @@ function Home() {
         <Service />
         <Project />
         <Newsletter />
+        <Footer />
       </div>
     </>
   );

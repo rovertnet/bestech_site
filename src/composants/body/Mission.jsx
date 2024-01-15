@@ -2,13 +2,12 @@ import { FaInstagramSquare } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
-import { FaSquareGithub } from "react-icons/fa6";
 
 function Mission() {
   return (
     <>
       <div className=" md:px-14 p-4 max-w-s mx-auto space-y-12 md:my-11 my-14">
-        <div className=" flex flex-col  md:flex-row justify-between items-center gap-40">
+        <div className=" flex flex-col  md:flex-row justify-between items-center gap-16">
           <div className=" md:w-1/2 flex gap-10">
             <div className="">
               <img

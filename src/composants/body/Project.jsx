@@ -7,7 +7,7 @@ function Project() {
       <div className="md:px-14 p-4 max-w-s mx-auto space-y-12 my-10 md:my-12">
         <div className=" flex flex-col justify-center items-center md:mt-10 mt-7">
           <h2 className=" md:text-4xl text-center text-3xl font-extrabold md:mb-7 mb-5 leading-normal text-blue-800">
-            Nos Meilleurs Solutions
+            Nos Meilleures Solutions
           </h2>
           <p className=" text-slate-700 max-w-lg text-center">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam odio

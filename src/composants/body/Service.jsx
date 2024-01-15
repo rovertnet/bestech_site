@@ -1,7 +1,7 @@
 
 function Service() {
   return (
-    <div className=" bg-gray-100 md:py-7 py-5">
+    <div className=" bg-gray-100 md:py-5 py-3">
       <div className="md:px-14 p-4 max-w-s mx-auto space-y-12 my-10 md:my-12">
         <div className=" flex flex-col justify-center items-center">
           <h2 className=" md:text-4xl text-center text-3xl font-extrabold md:mb-7 mb-5 leading-normal text-blue-800">
