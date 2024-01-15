@@ -1,6 +1,8 @@
 
 import About from "../composants/body/About";
 import Mission from "../composants/body/Mission";
+import Newsletter from "../composants/body/Newsletter";
+import Project from "../composants/body/Project";
 import Service from "../composants/body/Service";
 import Navbar from "../composants/header/Navbar"
 
@@ -33,6 +35,8 @@ function Home() {
         <About />
         <Mission />
         <Service />
+        <Project />
+        <Newsletter />
       </div>
     </>
   );

@@ -11,7 +11,7 @@ function Navbar() {
   return (
     <>
       <div className="md:px-14 lg:px-14 sm:px-14 p-10 max-w-screen-2xl mx-auto">
-        <div className="fixed top-0 right-0 left-0 mx-5 md:mx-7 md:mt-5 mt-4 shadow-xl bg-white rounded-tr-md rounded-tl-md">
+        <div className="fixed top-0 right-0 left-0 mx-10 md:mx-12 md:mt-5 mt-4 shadow-xl bg-white rounded-tr-md rounded-tl-md">
           <div className="text-lg  container mx-auto flex justify-between items-center">
             {/* Logo */}
             <a href="#">
@@ -69,7 +69,7 @@ function Navbar() {
             <div className="space-x-12 hidden md:flex items-center">
               <button
                 type="button"
-                className=" border border-blue-800 px-8 py-1  rounded-md text-blue-800"
+                className=" border border-blue-800 hover:bg-blue-900 hover:text-white  px-8 py-1  rounded-md text-blue-800"
               >
                 Devis
               </button>
@@ -94,7 +94,7 @@ function Navbar() {
 
       <div className="left-11 right-11">
         <div
-          className={` space-y-4 mt-16 w-[400] rounded-br-md rounded-bl-md justify-center px-6 py-3 pb-5 mx-5 bg-white ${
+          className={` space-y-4 mt-20 w-[400] rounded-br-md rounded-bl-md justify-center px-6 py-3 pb-5 mx-10 bg-white ${
             showMenu
               ? "block justify-center fixed top-0 right-0 left-0"
               : "hidden "
@@ -148,7 +148,7 @@ function Navbar() {
             </Link>
             <button
               type="button"
-              className=" border border-slate-900 px-24 py-1 mt-4 rounded-md"
+              className=" border border-blue-800 hover:bg-blue-900 hover:text-white px-24 py-1 mt-4 rounded-md"
             >
               Devis
             </button>

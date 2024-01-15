@@ -1,9 +1,9 @@
 
 function Service() {
   return (
-    <>
+    <div className=" bg-gray-100 md:py-7 py-5">
       <div className="md:px-14 p-4 max-w-s mx-auto space-y-12 my-10 md:my-12">
-        <div className=" flex flex-col justify-center items-center md:mt-10 mt-7">
+        <div className=" flex flex-col justify-center items-center">
           <h2 className=" md:text-4xl text-center text-3xl font-extrabold md:mb-7 mb-5 leading-normal text-blue-800">
             Nos Services
           </h2>
@@ -12,21 +12,65 @@ function Service() {
             sunt dolore repellat iste commodi.
           </p>
         </div>
+        <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 sm:grid-cols-1 gap-10">
+          <div className="bg-white shadow-md px-7 py-4 rounded-md">
+            <img src="../../public/app.png" alt="" className=" h-16 w-16" />
+            <div className=" flex flex-col justify-start items-start md:py-7 py-5">
+              <h2 className=" text-blue-800 text-xl md:text-2xl md:pb-3 pb-2 font-bold">
+                Développement d'applications
+              </h2>
+              <span className=" text-slate-700 text-base md:text-lg md:pb-3 pb-2 text-justify font-medium">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Eligendi alias ratione nulla a enim! Esse,
+              </span>
+              <span className=" text-sm md:text-base text-slate-600 cursor-pointer">
+                En savoir plus
+              </span>
+            </div>
+          </div>
 
-        <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 sm:grid-cols-1 gap-2">
-          <div className="">
-            <img src="../../public/app.png" alt="" className=" h-44 w-44 rounded-full" />
-            <div className=" flex flex-col justify-start items-start">
-                <h2 className=" text-slate-900 text-xl md:text-2xl font-bold">Développement d'applications</h2>
-                <span className=" text-slate-700 text-base md:text-lg  font-medium">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi alias ratione nulla a enim! Esse,
-                </span>
-                <span className=" text-sm md:text-base text-slate-600 cursor-pointer">En savoir plus</span>
+          <div className="bg-white shadow-md px-7 py-4 rounded-md">
+            <img
+              src="../../public/marketing.png"
+              alt=""
+              className=" h-16 w-16"
+            />
+            <div className=" flex flex-col justify-start items-start md:py-7 py-5">
+              <h2 className=" text-blue-800 text-xl md:text-2xl md:pb-3 pb-2 font-bold">
+                Marketing Digital
+              </h2>
+              <span className=" text-slate-700 text-base md:text-lg md:pb-3 pb-2 text-justify font-medium">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Eligendi alias ratione nulla a enim! Esse,
+              </span>
+              <span className=" text-sm md:text-base text-slate-600 cursor-pointer">
+                En savoir plus
+              </span>
+            </div>
+          </div>
+
+          <div className=" bg-white shadow-md px-7 py-4 rounded-md">
+            <img
+              src="../../public/formation.png"
+              alt=""
+              className=" h-16 w-16 text-blue-800"
+            />
+            <div className=" flex flex-col justify-start items-start md:py-7 py-5">
+              <h2 className=" text-blue-800 text-xl md:pb-3 pb-2 md:text-2xl font-bold">
+                Formation aux métiers numériques
+              </h2>
+              <span className=" text-slate-700 text-base md:pb-3 pb-2 md:text-lg text-justify font-medium">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Eligendi alias ratione nulla a enim! Esse,
+              </span>
+              <span className=" text-sm md:text-base text-slate-600 cursor-pointer">
+                En savoir plus
+              </span>
             </div>
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
