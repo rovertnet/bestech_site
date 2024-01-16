@@ -4,7 +4,7 @@ import Projectitems from "./project/Projectitems";
 function Project() {
   return (
     <>
-      <div className="md:px-14 p-4 max-w-s mx-auto space-y-12 my-10 md:my-12">
+      <div className="md:px-14 px-10 max-w-s mx-auto space-y-12 my-10 md:my-12">
         <div className=" flex flex-col justify-center items-center md:mt-10 mt-7">
           <h2 className=" md:text-4xl text-center text-3xl font-extrabold md:mb-7 mb-5 leading-normal text-blue-800">
             Nos Meilleures Solutions

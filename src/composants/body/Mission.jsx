@@ -6,33 +6,33 @@ import { FaFacebookF } from "react-icons/fa";
 function Mission() {
   return (
     <>
-      <div className=" md:px-14 p-4 max-w-s mx-auto space-y-12 md:my-11 my-14">
+      <div className=" md:px-14 px-10 max-w-s mx-auto space-y-12 md:my-11 my-14">
         <div className=" flex flex-col  md:flex-row justify-between items-center gap-14">
           <div className=" md:w-1/2 flex gap-10">
             <div className="">
               <img
                 src="../../public/3.png"
                 alt="ùission"
-                className=" rounded-tl-md rounded-bl-md"
+                className=" rounded-tl-3xl rounded-bl-3xl"
               />
             </div>
             <div className="">
               <img
                 src="../../public/4.png"
                 alt="ùission"
-                className=" rounded-tl-md rounded-tr-md rounded-br-md rounded-bl-md mt-20"
+                className=" mt-20"
               />
             </div>
             <div className="">
               <img
                 src="../../public/5.png"
                 alt="ùission"
-                className="rounded-tr-md rounded-br-md"
+                className="rounded-tr-3xl rounded-br-3xl"
               />
             </div>
           </div>
           <div className=" md:w-2/5">
-            <h2 className=" md:text-4xl text-end md:text-start text-3xl font-extrabold md:mb-9 mb-7 leading-normal text-blue-800">
+            <h2 className=" md:text-4xl text-start text-3xl font-extrabold md:mb-9 mb-7 leading-normal text-blue-800">
               Notre mission
             </h2>
             <p className=" text-slate-500 text-xl mb-3 text-justify">

@@ -2,18 +2,22 @@
 function About() {
   return (
     <>
-      <div className=" md:px-14 p-4 max-w-s space-y-12 my-10 md:my-12">
+      <div className=" md:px-14 px-10 max-w-s space-y-12 my-10 md:my-12">
         {/*  */}
         <div className=" flex flex-col md:flex-row-reverse justify-center items-center gap-16 ">
           <div className=" md:w-2/3 flex gap-10 ">
             <div className="h-full ">
-              <img src="../../public/1.png" alt="" className=" rounded-md" />
+              <img
+                src="../../public/13.png"
+                alt=""
+                className=" rounded-tl-3xl rounded-bl-3xl"
+              />
             </div>
             <div className=" h-full ">
               <img
-                src="../../public/2.png"
+                src="../../public/12.png"
                 alt=""
-                className=" mt-16 md:w-full rounded-md w-full md:h-full h-full"
+                className=" mt-16 md:w-full w-full md:h-full h-full rounded-tr-3xl rounded-br-3xl"
               />
             </div>
           </div>

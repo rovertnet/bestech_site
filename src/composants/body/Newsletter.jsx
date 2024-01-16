@@ -3,7 +3,7 @@ import { IoSend } from "react-icons/io5";
 function Newsletter() {
   return (
     <>
-      <div className=" md:px-14 px-4 max-w-screen-2xl mx-auto my-10 md:pb-10 pb-8 bg-blue-900">
+      <div className=" md:px-14 px-10 max-w-screen-2xl mx-auto my-10 md:pb-10 pb-8 bg-blue-900">
         <div className=" py-12">
           <div className=" flex flex-col md:flex-row justify-between items-center gap-10">
             {/* image */}

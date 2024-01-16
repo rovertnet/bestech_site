@@ -1,3 +1,5 @@
+import About from "../composants/body/About";
+import Mission from "../composants/body/Mission";
 import Newsletter from "../composants/body/Newsletter";
 import Footer from "../composants/footer/Footer";
 import Navbar from "../composants/header/Navbar"
@@ -5,7 +7,7 @@ import Navbar from "../composants/header/Navbar"
 function Abouts() {
   return (
     <>
-      <div className="bg-center bg-cover object-cover w-full h-full p-20 bg-[url('../../public/bb.png')]">
+      <div className="bg-center bg-cover object-cover w-full h-full p-20 bg-[url('../../public/BAP.png')]">
         <Navbar />
 
         <div className=" flex flex-col justify-center items-center">
@@ -17,6 +19,8 @@ function Abouts() {
         </div>
       </div>
       <div>
+        <About />
+        <Mission />
         <Newsletter />
         <Footer />
       </div>
