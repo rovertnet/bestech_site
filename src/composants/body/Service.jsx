@@ -23,7 +23,7 @@ function Service() {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Eligendi alias ratione nulla a enim! Esse,
               </span>
-              <span className=" text-sm md:text-base text-slate-600 cursor-pointer">
+              <span className=" text-sm md:text-base text-slate-500 cursor-pointer">
                 En savoir plus
               </span>
             </div>

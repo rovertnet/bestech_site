@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { Link } from "react-scroll";
 import { BiMenuAltRight } from "react-icons/bi";
 import { HiOutlineXMark } from "react-icons/hi2";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const [showMenu, setShowMenu] = useState(false);
@@ -11,7 +11,7 @@ function Navbar() {
   return (
     <>
       <div className="md:px-16 lg:px-16 sm:px-16 px-14 max-w-screen-2xl mx-auto">
-        <div className="fixed top-0 right-0 left-0 md:px-14 lg:px-14 sm:px-14 p-2 mx-10 md:mx-12 md:mt-5 mt-4 shadow-lg bg-white rounded-tr-md rounded-tl-md">
+        <div className="fixed top-0 right-0 left-0 md:px-14 lg:px-14 sm:px-14 p-2 mx-8 md:mx-10 md:mt-5 mt-4 shadow-lg bg-white rounded-tr-md rounded-tl-md">
           <div className="text-lg  container mx-auto flex justify-between items-center">
             {/* Logo */}
             <a href="#">
@@ -25,11 +25,15 @@ function Navbar() {
                 spy={true}
                 smooth={true}
                 offset={-100}
+                as={ Link }
+                to="/"
               >
                 Accueil
               </Link>
               <Link
                 className=" block text-xl text-blue-800 hover:text-slate-600  font-semibold cursor-pointer "
+                as={Link}
+                to="/about"
                 onactiveclass="active"
                 spy={true}
                 smooth={true}
@@ -94,7 +98,7 @@ function Navbar() {
 
       <div className="left-11 right-11">
         <div
-          className={` space-y-4 mt-20 w-[400] rounded-br-md rounded-bl-md justify-center px-6 py-3 pb-5 mx-10 bg-white ${
+          className={` space-y-4 mt-20 w-[400] rounded-br-md rounded-bl-md justify-center px-6 py-3 pb-5 mx-8 bg-white ${
             showMenu
               ? "block justify-center fixed top-0 right-0 left-0"
               : "hidden "
@@ -107,6 +111,7 @@ function Navbar() {
               spy={true}
               smooth={true}
               offset={-100}
+              as={Link}
             >
               Accueil
             </Link>
@@ -148,7 +153,7 @@ function Navbar() {
             </Link>
             <button
               type="button"
-              className=" border border-blue-800 hover:bg-blue-900 hover:text-white px-24 py-1 mt-4 rounded-md"
+              className=" border border-blue-800 text-blue-900 hover:bg-blue-900 hover:text-white px-28 py-2 text-xl font-semibold mt-4 rounded-md"
             >
               Devis
             </button>
