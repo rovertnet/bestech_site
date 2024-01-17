@@ -106,7 +106,7 @@ function Navbar() {
         >
           <div className="text-center">
             <Link
-              className=" block py-3 text-xl hover:bg-blue-200 text-blue-800 hover:text-slate-600 font-semibold cursor-pointer "
+              className=" block py-3 text-xl hover:bg-blue-200 hover:rounded-md text-blue-800 hover:text-slate-600 font-semibold cursor-pointer "
               onactiveclass="active"
               spy={true}
               smooth={true}
@@ -116,7 +116,7 @@ function Navbar() {
               Accueil
             </Link>
             <Link
-              className=" block py-3 text-xl hover:bg-blue-200 text-blue-800 hover:text-slate-600  font-semibold cursor-pointer "
+              className=" block py-3 text-xl hover:bg-blue-200 hover:rounded-md text-blue-800 hover:text-slate-600  font-semibold cursor-pointer "
               onactiveclass="active"
               spy={true}
               smooth={true}
@@ -125,7 +125,7 @@ function Navbar() {
               A propos
             </Link>
             <Link
-              className=" block py-3 text-xl hover:bg-blue-200 text-blue-800 hover:text-slate-600  font-semibold cursor-pointer "
+              className=" block py-3 text-xl hover:bg-blue-200 hover:rounded-md text-blue-800 hover:text-slate-600  font-semibold cursor-pointer "
               onactiveclass="active"
               spy={true}
               smooth={true}
@@ -134,7 +134,7 @@ function Navbar() {
               Services
             </Link>
             <Link
-              className=" block py-3 text-xl hover:bg-blue-200 text-blue-800 hover:text-slate-600  font-semibold cursor-pointer "
+              className=" block py-3 text-xl hover:bg-blue-200 hover:rounded-md text-blue-800 hover:text-slate-600  font-semibold cursor-pointer "
               onactiveclass="active"
               spy={true}
               smooth={true}
@@ -143,7 +143,7 @@ function Navbar() {
               Projets
             </Link>
             <Link
-              className=" block py-3 text-xl hover:bg-blue-200 text-blue-800 hover:text-slate-600 font-semibold cursor-pointer "
+              className=" block py-3 text-xl hover:bg-blue-200 hover:rounded-md text-blue-800 hover:text-slate-600 font-semibold cursor-pointer "
               onactiveclass="active"
               spy={true}
               smooth={true}

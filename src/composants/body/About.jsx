@@ -2,7 +2,7 @@
 function About() {
   return (
     <>
-      <div className=" md:px-14 px-10 max-w-s space-y-12 my-10 md:my-12">
+      <div className=" md:px-14 px-8 max-w-s space-y-12 my-10 md:my-12">
         {/*  */}
         <div className=" flex flex-col md:flex-row-reverse justify-center items-center gap-16 ">
           <div className=" md:w-2/3 flex gap-10 ">

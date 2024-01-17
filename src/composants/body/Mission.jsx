@@ -6,7 +6,7 @@ import { FaFacebookF } from "react-icons/fa";
 function Mission() {
   return (
     <>
-      <div className=" md:px-14 px-10 max-w-s mx-auto space-y-12 md:my-11 my-14">
+      <div className=" md:px-14 px-8 max-w-s mx-auto space-y-12 md:my-11 my-14">
         <div className=" flex flex-col  md:flex-row justify-between items-center gap-14">
           <div className=" md:w-1/2 flex gap-10">
             <div className="">
