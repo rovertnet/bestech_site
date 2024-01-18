@@ -1,9 +1,16 @@
 import { IoSend } from "react-icons/io5";
+import { motion } from "framer-motion";
 
 function Newsletter() {
   return (
     <>
       <div className=" md:px-14 px-4 max-w-screen-2xl mx-auto my-10 md:pb-10 pb-8 bg-blue-900">
+      <motion.div
+          initial={{ opacity: 0, scale: 0, x: 500 }}
+          whileInView={{ opacity: 1, scale: 1, x: 0 }}
+          transition={{ duration: 0.6 }}
+          className=" flex flex-col  md:flex-row justify-between items-center gap-14"
+        >
         <div className=" py-12">
           <div className=" flex flex-col md:flex-row justify-between items-center gap-10">
             {/* image */}
@@ -34,6 +41,8 @@ function Newsletter() {
             </div>
           </div>
         </div>
+        </motion.div>
+
       </div>
     </>
   );
