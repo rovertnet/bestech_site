@@ -2,12 +2,18 @@ import { FaInstagramSquare } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
+import { motion } from "framer-motion";
 
 function Mission() {
   return (
     <>
       <div className=" md:px-14 px-8 max-w-s mx-auto space-y-12 md:my-11 my-14">
-        <div className=" flex flex-col  md:flex-row justify-between items-center gap-14">
+        <motion.div
+          initial={{ opacity: 0, scale: 0, x: 500 }}
+          whileInView={{ opacity: 1, scale: 1, x: 0 }}
+          transition={{ duration: 0.6 }}
+          className=" flex flex-col  md:flex-row justify-between items-center gap-14"
+        >
           <div className=" md:w-1/2 flex gap-10">
             <div className="">
               <img
@@ -17,11 +23,7 @@ function Mission() {
               />
             </div>
             <div className="">
-              <img
-                src="../../public/4.png"
-                alt="ùission"
-                className=" mt-20"
-              />
+              <img src="../../public/4.png" alt="ùission" className=" mt-20" />
             </div>
             <div className="">
               <img
@@ -58,7 +60,7 @@ function Mission() {
               <FaFacebookF className="cursor-pointer text-3xl md:text-3xl text-blue-600 " />
             </div>
           </div>
-        </div>
+        </motion.div>
       </div>
     </>
   );

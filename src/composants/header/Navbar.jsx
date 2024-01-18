@@ -56,6 +56,8 @@ function Navbar() {
                 spy={true}
                 smooth={true}
                 offset={-100}
+                as={ Link }
+                to="/project"
               >
                 Projets
               </Link>

@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 
 function Service() {
   return (
@@ -12,7 +13,13 @@ function Service() {
             sunt dolore repellat iste commodi.
           </p>
         </div>
-        <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 sm:grid-cols-1 gap-10">
+
+        <motion.div
+          className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 sm:grid-cols-1 gap-10"
+          initial={{ opacity: 0, scale: 0, x: 500 }}
+          whileInView={{ opacity: 1, scale: 1, x: 0 }}
+          transition={{ duration: 0.6 }}
+        >
           <div className="bg-white shadow-md px-7 py-4 rounded-md">
             <img src="../../public/app.png" alt="" className=" h-16 w-16" />
             <div className=" flex flex-col justify-start items-start md:py-7 py-5">
@@ -68,7 +75,7 @@ function Service() {
               </span>
             </div>
           </div>
-        </div>
+        </motion.div>
       </div>
     </div>
   );
