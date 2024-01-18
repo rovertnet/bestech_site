@@ -38,15 +38,11 @@ function Mission() {
               Notre mission
             </h2>
             <p className=" text-slate-500 text-xl mb-3 text-justify">
-              Avec une équipe de professionnels passionnés et talentueux, nous
-              sommes dévoués à vous offrir une expérience exceptionnelle,
-              rehaussant votre beauté naturelle et vous laissant rayonner à
-              chaque occasion spéciale.
-            </p>
-            <p className=" text-slate-500 text-xl mb-3 text-justify">
-              Notre site vitrine présente nos services sur mesure, notre
-              portefeuille de créations époustouflantes, nos tarifs compétitifs,
-              et nos coordonnées pour planifier votre prochaine consultation.
+              Nous avons pour mission principale d’être un des leaders du pays
+              dans le développement et la fourniture de solutions digitales,
+              être un pilier de la réussite de nos clients et ainsi participer à
+              la transformation numérique du continent Africain en général et de
+              la RDC en particulier.
             </p>
 
             <span className="text-slate-500 text-xl md:pb-5 pb-5">

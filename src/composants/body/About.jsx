@@ -33,16 +33,16 @@ function About() {
               A propos de nous
             </h2>
             <p className=" text-slate-500 text-xl mb-3 text-justify">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum,
-              reiciendis beatae obcaecati autem blanditiis, atque alias adipisci
-              facere molestiae dicta ex nulla ratione, tempore dolor dolore
-              suscipit earum in velit!
+              Bestech Consult est une entreprise de consultation informatique
+              spécialisée dans la proposition de solutions digitales adéquates
+              tant pour les entreprises privées que publiques dans différents
+              domaines et secteurs.
             </p>
             <p className=" text-slate-500 text-lg mb-3 text-justify">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum,
-              reiciendis beatae obcaecati autem blanditiis, atque alias adipisci
-              facere molestiae dicta ex nulla ratione, tempore dolor dolore
-              suscipit earum in velit!
+              A l’ère où les nouvelles technologies battent un plein sans
+              précédent dans la gestion quotidienne des activités de l’homme,
+              Bestech se veut être un partenaire de taille pour votre
+              transformation numérique au moyen des solutions hors concurrence.
             </p>
             <button className="py-3 md:mt-7 mt-10 text-xl px-6 rounded-md border border-blue-800 text-blue-800 hover:bg-blue-700 hover:text-blue-50 transition-all duration-300 font-semibold">
               Contactez-nous

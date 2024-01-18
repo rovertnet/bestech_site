@@ -27,8 +27,9 @@ function Service() {
                 Développement d'applications
               </h2>
               <span className=" text-slate-700 text-base md:text-lg md:pb-3 pb-2 text-justify font-medium">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Eligendi alias ratione nulla a enim! Esse,
+                Donnez vie à vos visions grâce à notre expertise en
+                développement d’applications, où la technologie rencontre la
+                créativité pour des résultats hors du commun.
               </span>
               <span className=" text-sm md:text-base text-slate-500 cursor-pointer">
                 En savoir plus
@@ -47,8 +48,9 @@ function Service() {
                 Marketing Digital
               </h2>
               <span className=" text-slate-700 text-base md:text-lg md:pb-3 pb-2 text-justify font-medium">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Eligendi alias ratione nulla a enim! Esse,
+                Boostez votre présence en ligne avec notre offre de Marketing
+                digital, propulsant votre entreprise vers de nouveaux sommets
+                numériques.
               </span>
               <span className=" text-sm md:text-base text-slate-600 cursor-pointer">
                 En savoir plus
@@ -67,8 +69,9 @@ function Service() {
                 Formation aux métiers numériques
               </h2>
               <span className=" text-slate-700 text-base md:pb-3 pb-2 md:text-lg text-justify font-medium">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Eligendi alias ratione nulla a enim! Esse,
+                Atomiser votre carrière professionnelle en vous formant aux
+                métiers numériques pour plus de performance et une productivité
+                dynamique.
               </span>
               <span className=" text-sm md:text-base text-slate-600 cursor-pointer">
                 En savoir plus

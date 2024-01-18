@@ -1,5 +1,4 @@
 import Navbar from "../composants/header/Navbar";
-import { motion } from "framer-motion";
 
 function Project() {
   return (

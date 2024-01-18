@@ -16,12 +16,12 @@ function Home() {
 
         <div className=" flex flex-col justify-center items-center">
           <div className=" text-center md:py-10 py-7">
-            <h1 className="text-blue-800 text-2xl md:text-3xl font-extrabold">
-              BESTECH CONSULT
+            <h1 className="text-white text-3xl md:text-4xl font-extrabold">
+              Votre parcours vers l’efficacité informatique commence ici.
             </h1>
-            <p className=" text-white max-w-lg px-7 text-lg font-semibold md:mt-5 mt-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-              vitae ea tempore.
+            <p className=" text-white  px-7 flex justify-center items-center text-2xl font-semibold md:mt-5 mt-4">
+              Découvrez comment nos services <br /> peuvent transformer votre
+              infrastructure <br /> et dynamiser votre entreprise
             </p>
             <div className="md:mt-8 mt-6">
               <button className=" bg-blue-900 text-white hover:bg-blue-700 rounded-md text-xl font-semibold px-5 py-3">
