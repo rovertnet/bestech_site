@@ -16,6 +16,9 @@ function About() {
                 className=" mt-16 md:w-full rounded-md w-full md:h-full h-full"
               />
             </div>
+            <div className="h-full ">
+              <img src="../../public/1.png" alt="" className=" rounded-md" />
+            </div>
           </div>
 
           <div className=" md:w-3/5">
