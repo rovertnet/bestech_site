@@ -1,4 +1,5 @@
 
+import { fadeIn } from "../Variants";
 import About from "../composants/body/About";
 import Mission from "../composants/body/Mission";
 import Newsletter from "../composants/body/Newsletter";
@@ -6,7 +7,7 @@ import Project from "../composants/body/Project";
 import Service from "../composants/body/Service";
 import Footer from "../composants/footer/Footer";
 import Navbar from "../composants/header/Navbar"
-
+import { motion } from "framer-motion";
 
 function Home() {
   return (
@@ -14,7 +15,13 @@ function Home() {
       <div className="bg-center bg-cover object-cover w-full h-full p-20 bg-[url('../../public/sartup.jpg')]">
         <Navbar />
 
-        <div className=" flex flex-col justify-center items-center">
+        <motion.div
+          variants={fadeIn("down", 0.3)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: false, amount: 0.7 }}
+          className=" flex flex-col justify-center items-center"
+        >
           <div className=" text-center md:py-10 py-7">
             <h1 className="text-white text-3xl md:text-4xl font-extrabold">
               Votre parcours vers l’efficacité informatique commence ici.
@@ -29,7 +36,7 @@ function Home() {
               </button>
             </div>
           </div>
-        </div>
+        </motion.div>
       </div>
       <div>
         <About />

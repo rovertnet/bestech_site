@@ -3,15 +3,13 @@ import { BsTwitterX } from "react-icons/bs";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 import { motion } from "framer-motion";
+import { fadeIn } from "../../Variants";
 
 function Mission() {
   return (
     <>
       <div className=" md:px-14 px-8 max-w-s mx-auto space-y-12 md:my-11 my-14">
-        <motion.div
-          initial={{ opacity: 0, scale: 0, x: 500 }}
-          whileInView={{ opacity: 1, scale: 1, x: 0 }}
-          transition={{ duration: 0.6 }}
+        <div
           className=" flex flex-col  md:flex-row justify-between items-center gap-14"
         >
           <div className=" md:w-1/2 flex gap-10">
@@ -37,13 +35,19 @@ function Mission() {
             <h2 className=" md:text-4xl text-start text-3xl font-extrabold md:mb-9 mb-7 leading-normal text-blue-800">
               Notre mission
             </h2>
-            <p className=" text-slate-500 text-xl mb-3 text-justify">
+            <motion.p
+              variants={fadeIn("left", 0.2)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: false, amount: 0.7 }}
+              className=" text-slate-500 text-xl mb-3 text-justify"
+            >
               Nous avons pour mission principale d’être un des leaders du pays
               dans le développement et la fourniture de solutions digitales,
               être un pilier de la réussite de nos clients et ainsi participer à
               la transformation numérique du continent Africain en général et de
               la RDC en particulier.
-            </p>
+            </motion.p>
 
             <span className="text-slate-500 text-xl md:pb-5 pb-5">
               Suivez-nous sur :{" "}
@@ -56,7 +60,7 @@ function Mission() {
               <FaFacebookF className="cursor-pointer text-3xl md:text-3xl text-blue-600 " />
             </div>
           </div>
-        </motion.div>
+        </div>
       </div>
     </>
   );
