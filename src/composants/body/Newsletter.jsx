@@ -23,10 +23,10 @@ function Newsletter() {
             </div>
             {/* La présentation */}
             <motion.div
-              variants={fadeIn("up", 0.5)}
+              variants={fadeIn("up", 0.7)}
               initial="hidden"
               whileInView={"show"}
-              viewport={{ once: false, amount: 0.7 }}
+              viewport={{ once: false, amount: 0.9 }}
               className=" md:w-full"
             >
               {/* le formulaire */}
