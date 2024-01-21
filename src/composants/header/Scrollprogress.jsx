@@ -11,7 +11,7 @@ function Scrollprogress() {
           top: 0,
           left: 0,
           right: 0,
-          height: 10,
+          height: 5,
           transformOrigin: "0%",
         }}
         className=" bg-gradient-to-r from-blue-600 via-yellow-500 to-red-700 ... "
