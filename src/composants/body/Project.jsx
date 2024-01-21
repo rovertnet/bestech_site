@@ -8,7 +8,7 @@ function Project() {
     <>
       <div className="md:px-14 px-8 max-w-s mx-auto space-y-12 my-10 md:my-12">
         <motion.div
-          variants={fadeIn("up", 0.3)}
+          variants={fadeIn("down", 0.3)}
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: false, amount: 0.7 }}
@@ -24,7 +24,7 @@ function Project() {
         </motion.div>
 
         <motion.div
-          variants={fadeIn("up", 0.5)}
+          variants={fadeIn("down", 0.5)}
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: false, amount: 0.7 }}

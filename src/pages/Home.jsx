@@ -15,28 +15,40 @@ function Home() {
       <div className="bg-center bg-cover object-cover w-full h-full p-20 bg-[url('../../public/sartup.jpg')]">
         <Navbar />
 
-        <motion.div
-          variants={fadeIn("down", 0.3)}
-          initial="hidden"
-          whileInView={"show"}
-          viewport={{ once: false, amount: 0.7 }}
-          className=" flex flex-col justify-center items-center"
-        >
+        <div className=" flex flex-col justify-center items-center">
           <div className=" text-center md:py-10 py-7">
-            <h1 className="text-white text-3xl md:text-4xl font-extrabold">
+            <motion.h1
+              variants={fadeIn("down", 0.3)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: false, amount: 0.7 }}
+              className="text-white text-3xl md:text-4xl font-extrabold"
+            >
               Votre parcours vers l’efficacité informatique commence ici.
-            </h1>
-            <p className=" text-white  px-7 flex justify-center items-center text-2xl font-semibold md:mt-5 mt-4">
+            </motion.h1>
+            <motion.p
+              variants={fadeIn("down", 0.3)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: false, amount: 0.7 }}
+              className=" text-white  px-7 flex justify-center items-center text-2xl font-semibold md:mt-5 mt-4"
+            >
               Découvrez comment nos services <br /> peuvent transformer votre
               infrastructure <br /> et dynamiser votre entreprise
-            </p>
-            <div className="md:mt-8 mt-6">
+            </motion.p>
+            <motion.div
+              variants={fadeIn("up", 0.5)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: false, amount: 0.7 }}
+              className="md:mt-8 mt-6"
+            >
               <button className=" bg-blue-900 text-white hover:bg-blue-700 rounded-md text-xl font-semibold px-5 py-3">
                 En savoir plus
               </button>
-            </div>
+            </motion.div>
           </div>
-        </motion.div>
+        </div>
       </div>
       <div>
         <About />

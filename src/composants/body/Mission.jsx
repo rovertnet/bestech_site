@@ -12,7 +12,7 @@ function Mission() {
         <div className=" flex flex-col  md:flex-row justify-between items-center gap-14">
           <div className=" md:w-1/2 flex gap-10">
             <motion.div
-              variants={fadeIn("left", 0.3)}
+              variants={fadeIn("left", 0.5)}
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
@@ -25,7 +25,7 @@ function Mission() {
               />
             </motion.div>
             <motion.div
-              variants={fadeIn("down", 0.5)}
+              variants={fadeIn("down", 0.7)}
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
@@ -34,7 +34,7 @@ function Mission() {
               <img src="../../public/4.png" alt="ùission" className=" mt-20" />
             </motion.div>
             <motion.div
-              variants={fadeIn("right", 0.7)}
+              variants={fadeIn("right", 0.9)}
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
@@ -49,7 +49,7 @@ function Mission() {
           </div>
           <div className=" md:w-2/5">
             <motion.h2
-              variants={fadeIn("down", 0.3)}
+              variants={fadeIn("down", 0.5)}
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
@@ -58,7 +58,7 @@ function Mission() {
               Notre mission
             </motion.h2>
             <motion.p
-              variants={fadeIn("left", 0.5)}
+              variants={fadeIn("left", 0.7)}
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
@@ -72,7 +72,7 @@ function Mission() {
             </motion.p>
 
             <motion.div
-              variants={fadeIn("up", 0.5)}
+              variants={fadeIn("up", 0.9)}
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}

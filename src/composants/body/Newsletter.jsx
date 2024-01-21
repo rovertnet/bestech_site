@@ -1,4 +1,6 @@
 import { IoSend } from "react-icons/io5";
+import { motion } from "framer-motion";
+import { fadeIn } from "../../Variants";
 
 function Newsletter() {
   return (
@@ -8,13 +10,25 @@ function Newsletter() {
           <div className=" flex flex-col md:flex-row justify-between items-center gap-10">
             {/* image */}
             <div>
-              <p className=" text-slate-200 text-xl font-medium md:text-xl">
+              <motion.p
+                variants={fadeIn("down", 0.3)}
+                initial="hidden"
+                whileInView={"show"}
+                viewport={{ once: false, amount: 0.7 }}
+                className=" text-slate-200 text-xl font-medium md:text-xl"
+              >
                 Join our newsletter and get news in your inbox every week! We
                 hate spam too, so no worries about this.
-              </p>
+              </motion.p>
             </div>
             {/* La présentation */}
-            <div className=" md:w-full">
+            <motion.div
+              variants={fadeIn("up", 0.5)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: false, amount: 0.7 }}
+              className=" md:w-full"
+            >
               {/* le formulaire */}
               <form action="">
                 <div className="flex justify-center items-center space-x-3">
@@ -31,7 +45,7 @@ function Newsletter() {
                   </button>
                 </div>
               </form>
-            </div>
+            </motion.div>
           </div>
         </div>
       </div>

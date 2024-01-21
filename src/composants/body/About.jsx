@@ -6,7 +6,13 @@ function About() {
     <>
       <div className=" md:px-14 px-8 max-w-s space-y-12 my-10 md:my-12">
         {/*  */}
-        <div className=" flex flex-col md:flex-row-reverse justify-center items-center gap-16 ">
+        <motion.div
+          variants={fadeIn("up", 0.3)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: false, amount: 0.7 }}
+          className=" flex flex-col md:flex-row-reverse justify-center items-center gap-16 "
+        >
           <motion.div className=" md:w-2/3 flex gap-10 ">
             <motion.div
               variants={fadeIn("up", 0.3)}
@@ -62,7 +68,7 @@ function About() {
               Contactez-nous
             </button>
           </motion.div>
-        </div>
+        </motion.div>
       </div>
     </>
   );
