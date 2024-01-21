@@ -9,34 +9,56 @@ function Mission() {
   return (
     <>
       <div className=" md:px-14 px-8 max-w-s mx-auto space-y-12 md:my-11 my-14">
-        <div
-          className=" flex flex-col  md:flex-row justify-between items-center gap-14"
-        >
+        <div className=" flex flex-col  md:flex-row justify-between items-center gap-14">
           <div className=" md:w-1/2 flex gap-10">
-            <div className="">
+            <motion.div
+              variants={fadeIn("left", 0.3)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: false, amount: 0.7 }}
+              className=""
+            >
               <img
                 src="../../public/3.png"
                 alt="ùission"
                 className=" rounded-tl-3xl rounded-bl-3xl"
               />
-            </div>
-            <div className="">
+            </motion.div>
+            <motion.div
+              variants={fadeIn("down", 0.5)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: false, amount: 0.7 }}
+              className=""
+            >
               <img src="../../public/4.png" alt="ùission" className=" mt-20" />
-            </div>
-            <div className="">
+            </motion.div>
+            <motion.div
+              variants={fadeIn("right", 0.7)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: false, amount: 0.7 }}
+              className=""
+            >
               <img
                 src="../../public/5.png"
                 alt="ùission"
                 className="rounded-tr-3xl rounded-br-3xl"
               />
-            </div>
+            </motion.div>
           </div>
           <div className=" md:w-2/5">
-            <h2 className=" md:text-4xl text-start text-3xl font-extrabold md:mb-9 mb-7 leading-normal text-blue-800">
+            <motion.h2
+              variants={fadeIn("down", 0.3)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: false, amount: 0.7 }}
+              className=" md:text-4xl text-start text-3xl font-extrabold md:mb-9 mb-7 leading-normal text-blue-800"
+            >
               Notre mission
-            </h2>
+            </motion.h2>
             <motion.p
-              variants={fadeIn("left", 0.2)}
+              variants={fadeIn("left", 0.5)}
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
@@ -49,16 +71,23 @@ function Mission() {
               la RDC en particulier.
             </motion.p>
 
-            <span className="text-slate-500 text-xl md:pb-5 pb-5">
-              Suivez-nous sur :{" "}
-            </span>
+            <motion.div
+              variants={fadeIn("up", 0.5)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: false, amount: 0.7 }}
+            >
+              <span className="text-slate-500 text-xl md:pb-5 pb-5">
+                Suivez-nous sur :{" "}
+              </span>
 
-            <div className=" flex justify-start items-center gap-4 md:mt-7 mt-5">
-              <FaInstagramSquare className="cursor-pointer text-3xl md:text-3xl text-red-600 " />
-              <BsTwitterX className="cursor-pointer text-3xl md:text-3xl " />
-              <FaLinkedinIn className="cursor-pointer text-3xl md:text-3xl text-blue-500 " />
-              <FaFacebookF className="cursor-pointer text-3xl md:text-3xl text-blue-600 " />
-            </div>
+              <div className=" flex justify-start items-center gap-4 md:mt-7 mt-5">
+                <FaInstagramSquare className="cursor-pointer text-3xl md:text-3xl text-red-600 " />
+                <BsTwitterX className="cursor-pointer text-3xl md:text-3xl " />
+                <FaLinkedinIn className="cursor-pointer text-3xl md:text-3xl text-blue-500 " />
+                <FaFacebookF className="cursor-pointer text-3xl md:text-3xl text-blue-600 " />
+              </div>
+            </motion.div>
           </div>
         </div>
       </div>

@@ -1,10 +1,17 @@
 import { motion } from "framer-motion";
+import { fadeIn } from "../../Variants";
 
 function Service() {
   return (
     <div className=" bg-gray-100 md:py-5 py-3">
       <div className="md:px-14 px-8 max-w-s mx-auto space-y-12 my-10 md:my-12">
-        <div className=" flex flex-col justify-center items-center">
+        <motion.div
+          variants={fadeIn("down", 0.5)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: false, amount: 0.7 }}
+          className=" flex flex-col justify-center items-center"
+        >
           <h2 className=" md:text-4xl text-center text-3xl font-extrabold md:mb-7 mb-5 leading-normal text-blue-800">
             Nos Services
           </h2>
@@ -12,15 +19,16 @@ function Service() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam odio
             sunt dolore repellat iste commodi.
           </p>
-        </div>
+        </motion.div>
 
-        <motion.div
-          className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 sm:grid-cols-1 gap-10"
-          initial={{ opacity: 0, scale: 0, x: 500 }}
-          whileInView={{ opacity: 1, scale: 1, x: 0 }}
-          transition={{ duration: 0.6 }}
-        >
-          <div className="bg-white shadow-md px-7 py-4 rounded-md">
+        <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 sm:grid-cols-1 gap-10">
+          <motion.div
+            variants={fadeIn("left", 0.3)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: false, amount: 0.7 }}
+            className="bg-white shadow-md px-7 py-4 rounded-md"
+          >
             <img src="../../public/app.png" alt="" className=" h-16 w-16" />
             <div className=" flex flex-col justify-start items-start md:py-7 py-5">
               <h2 className=" text-blue-800 text-xl md:text-2xl md:pb-3 pb-2 font-bold">
@@ -35,9 +43,15 @@ function Service() {
                 En savoir plus
               </span>
             </div>
-          </div>
+          </motion.div>
 
-          <div className="bg-white shadow-md px-7 py-4 rounded-md">
+          <motion.div
+            variants={fadeIn("down", 0.5)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: false, amount: 0.7 }}
+            className="bg-white shadow-md px-7 py-4 rounded-md"
+          >
             <img
               src="../../public/marketing.png"
               alt=""
@@ -56,9 +70,15 @@ function Service() {
                 En savoir plus
               </span>
             </div>
-          </div>
+          </motion.div>
 
-          <div className=" bg-white shadow-md px-7 py-4 rounded-md">
+          <motion.div
+            variants={fadeIn("up", 0.7)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: false, amount: 0.7 }}
+            className=" bg-white shadow-md px-7 py-4 rounded-md"
+          >
             <img
               src="../../public/formation.png"
               alt=""
@@ -77,8 +97,8 @@ function Service() {
                 En savoir plus
               </span>
             </div>
-          </div>
-        </motion.div>
+          </motion.div>
+        </div>
       </div>
     </div>
   );
