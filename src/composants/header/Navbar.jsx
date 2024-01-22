@@ -11,21 +11,21 @@ function Navbar() {
   return (
     <>
       <div className="md:px-16 lg:px-16 sm:px-16 px-14 max-w-screen-2xl mx-auto">
-        <div className="fixed top-0 right-0 left-0 md:px-14 lg:px-14 sm:px-14 p-2 mx-8 md:mx-10 md:mt-5 mt-4 shadow-lg bg-white rounded-tr-md rounded-tl-md">
-          <div className="text-lg  container mx-auto flex justify-between items-center">
+        <div className="fixed top-0 right-0 left-0 md:px-14 lg:px-14 sm:px-14 p-2 mx-5 md:mx-5 md:mt-5 mt-4 shadow-lg bg-white rounded-tr-md rounded-tl-md">
+          <div className="text-lg  container mx-auto flex justify-between items-center gap-5">
             {/* Logo */}
             <a href="#">
               <img src="../../public/logo.jpg" alt="" className=" h-16" />
             </a>
             {/* Onglets */}
-            <ul className="md:flex space-x-10 hidden">
+            <ul className="md:flex space-x-5 hidden">
               <Link
                 className=" block text-xl text-blue-800 hover:text-slate-600 font-semibold cursor-pointer "
                 onactiveclass="active"
                 spy={true}
                 smooth={true}
                 offset={-100}
-                as={ Link }
+                as={Link}
                 to="/"
               >
                 Accueil
@@ -56,7 +56,7 @@ function Navbar() {
                 spy={true}
                 smooth={true}
                 offset={-100}
-                as={ Link }
+                as={Link}
                 to="/project"
               >
                 Projets
@@ -100,8 +100,7 @@ function Navbar() {
 
       <div className="left-11 right-11">
         <div
-
-          className={` space-y-4 mt-20 w-[400] rounded-br-md rounded-bl-md justify-center px-6 py-3 pb-5 mx-8 bg-white ${
+          className={` space-y-4 mt-20 w-[400] rounded-br-md rounded-bl-md justify-center px-6 py-3 pb-5 mx-5 bg-white ${
             showMenu
               ? "block justify-center fixed top-0 right-0 left-0"
               : "hidden "
@@ -115,6 +114,7 @@ function Navbar() {
               smooth={true}
               offset={-100}
               as={Link}
+              to="/"
             >
               Accueil
             </Link>
@@ -124,6 +124,8 @@ function Navbar() {
               spy={true}
               smooth={true}
               offset={-100}
+              as={Link}
+              to="/about"
             >
               A propos
             </Link>

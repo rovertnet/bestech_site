@@ -50,7 +50,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <div>
+      <div className=" md:mx-5 mx-5">
         <About />
         <Mission />
         <Service />
