@@ -1,8 +1,6 @@
 import { fadeIn } from "../Variants";
 import About from "../composants/body/About";
 import Miss from "../composants/body/Miss";
-import Newsletter from "../composants/body/Newsletter";
-import Footer from "../composants/footer/Footer";
 import Navbar from "../composants/header/Navbar";
 import { motion } from "framer-motion";
 
@@ -29,8 +27,6 @@ function Abouts() {
       <div>
         <About />
         <Miss />
-        <Newsletter />
-        <Footer />
       </div>
     </>
   );

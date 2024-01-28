@@ -10,32 +10,33 @@ function Miss() {
     <>
       <div className="md:px-14 px-8 max-w-s mx-auto space-y-12 md:my-11 my-14">
         <div className=" flex flex-col  md:flex-row justify-between items-center gap-14">
-          <div className="flex gap-3">
-            <div className="grid gap-4">
-              <img
-                className="h-full max-w-full rounded-lg"
-                src="../../public/MISION/1.png"
-                alt=""
-              />
-            </div>
-            <div className=" grid grid-cols-1 md:grid-cols-1 gap-4">
-              <div>
+          <div className="">
+            <div className="flex gap-3">
+              <div className="grid gap-4">
                 <img
-                  className="md:h-full max-w-full rounded-lg"
-                  src="../../public/1.png"
+                  className="h-full max-w-full rounded-lg"
+                  src="../../public/MISION/1.png"
                   alt=""
                 />
               </div>
-              <div>
-                <img
-                  className="md:h-full max-w-full rounded-lg"
-                  src="../../public/2.png"
-                  alt=""
-                />
+              <div className=" grid grid-cols-1 md:grid-cols-1 gap-4">
+                <div>
+                  <img
+                    className="md:h-full max-w-full rounded-lg"
+                    src="../../public/1.png"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <img
+                    className="md:h-full max-w-full rounded-lg"
+                    src="../../public/2.png"
+                    alt=""
+                  />
+                </div>
               </div>
             </div>
           </div>
-
           {/*  */}
 
           <div className="md:w-2/5">

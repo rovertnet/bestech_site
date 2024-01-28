@@ -2,10 +2,8 @@
 import { fadeIn } from "../Variants";
 import About from "../composants/body/About";
 import Mission from "../composants/body/Mission";
-import Newsletter from "../composants/body/Newsletter";
 import Project from "../composants/body/Project";
 import Service from "../composants/body/Service";
-import Footer from "../composants/footer/Footer";
 import Navbar from "../composants/header/Navbar"
 import { motion } from "framer-motion";
 
@@ -55,8 +53,7 @@ function Home() {
         <Mission />
         <Service />
         <Project />
-        <Newsletter />
-        <Footer />
+        
       </div>
     </>
   );
