@@ -75,7 +75,7 @@ function Navbar() {
             <div className="space-x-12 hidden md:flex items-center">
               <button
                 type="button"
-                className=" border border-blue-800 hover:bg-blue-900 hover:text-white  px-8 py-1  rounded-md text-blue-800"
+                className=" border border-blue-800 hover:bg-blue-900 hover:text-white  px-8 py-2  rounded-md text-blue-800"
               >
                 Devis
               </button>
