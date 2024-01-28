@@ -11,7 +11,7 @@ function Navbar() {
   return (
     <>
       <div className="md:px-16 lg:px-16 sm:px-16 px-14 max-w-screen-2xl mx-auto">
-        <div className="fixed top-0 right-0 left-0 md:px-14 lg:px-14 sm:px-14 p-2 mx-5 md:mx-5 md:mt-5 mt-4 shadow-lg bg-white rounded-tr-md rounded-tl-md">
+      <div className="fixed top-0 right-0 left-0 md:px-14 lg:px-14 sm:px-14 p-2 mx-5 md:mx-5 md:mt-5 mt-4 shadow-lg bg-white rounded-tr-md rounded-tl-md opacity-90">
           <div className="text-lg  container mx-auto flex justify-between items-center gap-5">
             {/* Logo */}
             <a href="#">
