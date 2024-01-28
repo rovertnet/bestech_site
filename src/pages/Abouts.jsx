@@ -1,6 +1,6 @@
 import { fadeIn } from "../Variants";
 import About from "../composants/body/About";
-import Mission from "../composants/body/Mission";
+import Miss from "../composants/body/Miss";
 import Newsletter from "../composants/body/Newsletter";
 import Footer from "../composants/footer/Footer";
 import Navbar from "../composants/header/Navbar";
@@ -28,7 +28,7 @@ function Abouts() {
       </div>
       <div>
         <About />
-        <Mission />
+        <Miss />
         <Newsletter />
         <Footer />
       </div>
