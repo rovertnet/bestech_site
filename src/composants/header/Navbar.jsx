@@ -18,7 +18,7 @@ function Navbar() {
               <img src="../../public/logo.jpg" alt="" className=" h-16" />
             </a>
             {/* Onglets */}
-            <ul className="md:flex space-x-5 hidden justify-start items-start">
+            <ul className="md:flex space-x-5 hidden md:justify-start md:items-start">
               <Link
                 className=" block text-xl text-blue-800 hover:text-slate-600 font-semibold cursor-pointer "
                 onactiveclass="active"
