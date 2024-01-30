@@ -6,7 +6,7 @@ function Team() {
     {
       firstname: "Robert",
       lastname: "MATUNDU",
-      role: "Développeur",
+      role: "Développeur Web",
       picture: "../../public/moi.png",
       description:
         "Harum iusto exercitationem assumenda quas nostrum perspiciatis quos iste sit reprehenderit, libero quae aperiam sapiente delectus, porro tempore minus repellendus ratione distinctio!",
@@ -18,7 +18,7 @@ function Team() {
     {
       firstname: "Rabby",
       lastname: "KIKWELE",
-      role: "Développeur Web",
+      role: "Développeur FullStack",
       picture: "../../public/TEAM/2.png",
       description:
         "Harum iusto exercitationem assumenda quas nostrum perspiciatis quos iste sit reprehenderit, libero quae aperiam sapiente delectus, porro tempore minus repellendus ratione distinctio!",
@@ -30,7 +30,7 @@ function Team() {
     {
       firstname: "Jonathan",
       lastname: "KABONGO",
-      role: "Développeur Web",
+      role: "Développeur FullStack",
       picture: "../../public/TEAM/3.png",
       description:
         "Harum iusto exercitationem assumenda quas nostrum perspiciatis quos iste sit reprehenderit, libero quae aperiam sapiente delectus, porro tempore minus repellendus ratione distinctio!",
@@ -42,8 +42,32 @@ function Team() {
     {
       firstname: "Océan",
       lastname: "KALALA",
-      role: "Développeur Web",
+      role: "Directeur Général",
       picture: "../../public/TEAM/5.png",
+      description:
+        "Harum iusto exercitationem assumenda quas nostrum perspiciatis quos iste sit reprehenderit, libero quae aperiam sapiente delectus, porro tempore minus repellendus ratione distinctio!",
+      facebookURL: "#link",
+      twitterURL: "#link",
+      linkedinURL: "#link",
+      youtubeURL: "#link",
+    },
+    {
+      firstname: "Emmanuel",
+      lastname: "MWAMBA",
+      role: "Directeur Marketing",
+      picture: "../../public/TEAM/4.png",
+      description:
+        "Harum iusto exercitationem assumenda quas nostrum perspiciatis quos iste sit reprehenderit, libero quae aperiam sapiente delectus, porro tempore minus repellendus ratione distinctio!",
+      facebookURL: "#link",
+      twitterURL: "#link",
+      linkedinURL: "#link",
+      youtubeURL: "#link",
+    },
+    {
+      firstname: "Patrick",
+      lastname: "ULARGIU",
+      role: "Ingenieur Logiciel",
+      picture: "../../public/TEAM/1.png",
       description:
         "Harum iusto exercitationem assumenda quas nostrum perspiciatis quos iste sit reprehenderit, libero quae aperiam sapiente delectus, porro tempore minus repellendus ratione distinctio!",
       facebookURL: "#link",
@@ -58,13 +82,11 @@ function Team() {
   return (
     <>
       <div className="md:px-14 px-8 max-w-s mx-auto space-y-12 my-10 md:my-12">
-        <div className="relative mx-auto py-10 w-full max-w-7xl bg-white text-gray-700">
+        <div className="relative mx-auto py-10 w-full max-w-9xl bg-white text-gray-700">
           {/* :TITLE CONTAINER */}
           <div className="mb-8 flex justify-center items-center">
-            <h2
-              className=" md:text-4xl pb-5 md:pb-7 text-3xl font-extrabold mb-2 leading-normal text-blue-800"
-            >
-              Notre Equipe 
+            <h2 className=" md:text-4xl text-3xl font-extrabold mb-2 leading-normal text-blue-800">
+              Notre Equipe
             </h2>
           </div>
 
@@ -72,7 +94,7 @@ function Team() {
             {/* :PICTURES CONTAINER */}
             <div className="col-span-full lg:col-span-1 flex flex-col sm:flex-row justify-center items-center">
               {/* ::Team members */}
-              <ul className="mb-4 sm:mb-0 px-4 flex sm:flex-col justify-center items-center space-x-3 sm:space-x-0 sm:space-y-3">
+              <ul className="mb-4 sm:mb-0 px-12 flex sm:flex-col justify-center items-center space-x-3 sm:space-x-0 sm:space-y-3">
                 {people.map((person, index) => (
                   <li
                     key={person.lastname}
@@ -96,7 +118,7 @@ function Team() {
                 ))}
               </ul>
               {/* ::Picture selected team member */}
-              <div className="rounded overflow-hidden">
+              <div className="rounded-lg overflow-hidden">
                 <img
                   src={people[member].picture}
                   alt=""
@@ -112,7 +134,7 @@ function Team() {
                 {people[member].role}
               </span>
               {/* ::Name */}
-              <h3 className="text-4xl sm:text-5xl font-bold space-y-2">
+              <h3 className="text-4xl sm:text-5xl text-blue-800 font-bold space-y-2">
                 <span className="block">{people[member].firstname}</span>
                 <span className="block">{people[member].lastname}</span>
               </h3>
