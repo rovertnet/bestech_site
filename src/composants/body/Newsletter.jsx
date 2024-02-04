@@ -5,7 +5,7 @@ import { fadeIn } from "../../Variants";
 function Newsletter() {
   return (
     <>
-      <div className=" md:px-14 px-8 max-w-screen-2xl mx-auto my-10 md:pb-10 pb-8 bg-blue-900">
+      <div className=" md:px-14 px-8 max-w-screen-2xl mx-auto md:pb-10 pb-8 bg-blue-900">
         <div className=" py-12">
           <div className=" flex flex-col md:flex-row justify-between items-center gap-10">
             {/* image */}
@@ -39,7 +39,7 @@ function Newsletter() {
                   />
                   <button
                     type="submit"
-                    className=" border border-white px-9 md:px-12 py-2 md:py-4 rounded-md hover:bg-black hover:border hover:border-black"
+                    className=" border border-white px-9 md:px-12 py-4 md:py-4 rounded-md hover:bg-black hover:border hover:border-black"
                   >
                     <IoSend className="text-slate-200 text-2xl md:text-3xl font-semibold" />
                   </button>

@@ -27,7 +27,7 @@ function Service() {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.7 }}
-            className="bg-white shadow-md px-7 py-4 rounded-md"
+            className="bg-white shadow-md hover:shadow-lg px-7 py-4 rounded-md"
           >
             <img src="../../public/app.png" alt="" className=" h-16 w-16" />
             <div className=" flex flex-col justify-start items-start md:py-7 py-5">
@@ -50,7 +50,7 @@ function Service() {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.7 }}
-            className="bg-white shadow-md px-7 py-4 rounded-md"
+            className="bg-white shadow-md hover:shadow-lg px-7 py-4 rounded-md"
           >
             <img
               src="../../public/marketing.png"
@@ -77,7 +77,7 @@ function Service() {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.7 }}
-            className=" bg-white shadow-md px-7 py-4 rounded-md"
+            className=" bg-white shadow-md hover:shadow-lg px-7 py-4 rounded-md"
           >
             <img
               src="../../public/formation.png"

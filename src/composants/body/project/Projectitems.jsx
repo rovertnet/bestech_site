@@ -2,7 +2,7 @@
 function Projectitems( { imageUrl, titre, tech } ) {
   return (
     <>
-      <div className=" bg-slate-300 rounded-lg overflow-hidden">
+      <div className=" bg-slate-300 rounded-lg overflow-hidden cursor-pointer">
         <img
           src={imageUrl}
           alt={titre}
