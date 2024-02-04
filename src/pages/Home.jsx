@@ -48,7 +48,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className=" md:mx-5 mx-5">
+      <div className="">
         <About />
         <Mission />
         <Service />

@@ -4,7 +4,7 @@ import { fadeIn } from "../../Variants";
 function Service() {
   return (
     <div className=" bg-gray-100 md:py-5 py-3">
-      <div className="md:px-14 px-8 max-w-s mx-auto space-y-12 my-10 md:my-12">
+      <div className="md:px-14 p-5 max-w-s mx-auto space-y-12 my-10 md:my-12">
         <motion.div
           variants={fadeIn("down", 0.5)}
           initial="hidden"
