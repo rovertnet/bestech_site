@@ -15,7 +15,7 @@ function Miss() {
               <div className="grid gap-4">
                 <img
                   className="h-full max-w-full rounded-lg"
-                  src="../../public/MISION/1.png"
+                  src="../../public/cote.png"
                   alt=""
                 />
               </div>

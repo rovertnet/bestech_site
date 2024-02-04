@@ -1,6 +1,6 @@
 import { fadeIn } from "../Variants";
 import About from "../composants/body/About";
-import Miss from "../composants/body/Miss";
+import Mission from "../composants/body/Mission";
 import Team from "../composants/body/Team";
 import Navbar from "../composants/header/Navbar";
 import { motion } from "framer-motion";
@@ -27,7 +27,7 @@ function Abouts() {
       </div>
       <div>
         <About />
-        <Miss />
+        <Mission />
         <Team />
       </div>
     </>
